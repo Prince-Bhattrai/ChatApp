@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg: #FFFFFF;
+  --page-bg: #F7F9FC;
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B7280;
+  --accent-primary: #3B82F6;
+  --accent-hover: #2563EB;
+  --chat-sent: #DCF1FF;
+  --chat-received: #EFF3F7;
+  --divider: #D1D5DB;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+}
