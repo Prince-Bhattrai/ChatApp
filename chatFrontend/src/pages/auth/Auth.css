@@ -83,3 +83,9 @@
     top: -10px;
     font-size: 15px;
 }
+
+@media (max-width:500px){
+    .auth form{
+        width:300px;
+    }
+}
