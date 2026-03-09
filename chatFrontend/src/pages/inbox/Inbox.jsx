@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import { FiPlusSquare } from "react-icons/fi";
 import ConformBox from '../../components/conformBox/ConformBox';
 import MessageRequest from '../../components/messageRequest/MessageRequest';
-import RemoveContactBtn from '../../components/removeContactBtn/removeContactBtn';
+import RemoveContactBtn from '../../components/removeContactBtn/RemoveContactBtn';
 
 const Inbox = () => {
   const [search, setSearch] = useState("")
