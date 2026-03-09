@@ -7,7 +7,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 import "./Chat.css";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:4000");
+const socket = io("https://chat-app-backend-f2im.onrender.com");
 const Chat = () => {
     const { id } = useParams();
     const { messages, setMessages, currUser, users } = useContext(AppContext);
