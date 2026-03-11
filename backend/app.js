@@ -14,7 +14,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.use(cors({
-  origin: ["https://full-chat-app-two.vercel.app"],
+  origin:"*",
   credentials: true
 }));
 
@@ -25,7 +25,7 @@ app.use("/v1/api/chat", chatRouter);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://full-chat-app-two.vercel.app"],
+    origin: "*",
     methods: ["GET", "POST"],
     credentials: true
   }
